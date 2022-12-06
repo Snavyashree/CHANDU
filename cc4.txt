@@ -1,0 +1,21 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df=pd.read_csv('C:/Users/Admin/Downloads/archive (1)/cars93.csv')
+print(df.head(5))
+
+plt.boxplot(df['MPG.city'])
+plt.show()
+
+
+import pandas as pd
+Series_a=pd.DataFrame([10,30,40,50,30])
+Series_b=pd.DataFrame([30,40,50,38,34])
+common=Series_a.merge(Series_b)
+print(common)
+
+import pandas as pd
+Series_a=pd.DataFrame([10,30,40,50,30])
+Series_b=pd.DataFrame([30,40,50,38,34])
+common=Series_a.merge(Series_b)
+print(common)
